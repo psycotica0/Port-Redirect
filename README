@@ -1,0 +1,8 @@
+portRedirect is an Erlang script that just forwards connections to one local port to another.
+
+I've come across a couple places where this has been a problem for me.
+
+It's run, from the erlang shell, like:
+portRedirect:forward(8888,8080).
+
+Which will forward all connections on 8888 to 8080.
